@@ -1,5 +1,45 @@
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: auto;
+  padding: auto;
 }
+
+header {
+  text-align: center;
+}
+
+nav a {
+  background-color: grey;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#featured-property {
+  text-align:center;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: auto;
+}
+
+#details{
+  background-color: red;
+  padding: 20px;
+  display: flex; 
+}
+
+p {
+  text-align: center;
+  float: center;
+  
+}
+
+#details div {
+  margin: auto;
+}
+
+
+
+
